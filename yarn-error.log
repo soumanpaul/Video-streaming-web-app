@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/bin/node /home/souman/.yarn/bin/yarn.js add @material-ui-icons
+
+PATH: 
+  /home/souman/.yarn/bin:/home/souman/.config/yarn/global/node_modules/.bin:/opt/maven/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/souman/.dotnet/tools:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/souman/bin:/usr/lib/jvm/jdk-10.0.1/bin:/home/souman/.dotnet/tools:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/souman/bin:/usr/lib/jvm/jdk-10.0.1/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui-icons: Request "https://registry.yarnpkg.com/@material-ui-icons" returned a 405
+      at Request.params.callback [as _callback] (/home/souman/.yarn/lib/cli.js:66956:18)
+      at Request.self.callback (/home/souman/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/home/souman/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/home/souman/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "mern-social",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www",
+      "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "compression": "^1.7.4",
+      "cookie-parser": "~1.4.4",
+      "cors": "^2.8.5",
+      "debug": "~4.1.1",
+      "express": "~4.17.1",
+      "express-jwt": "^5.3.1",
+      "helmet": "^3.21.2",
+      "http-errors": "~1.7.3",
+      "jade": "~1.11.0",
+      "jsonwebtoken": "^8.5.1",
+      "lodash": "^4.17.15",
+      "mongoose": "^5.8.3",
+      "morgan": "~1.9.1"
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.0.6",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-stage-2": "^6.24.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
