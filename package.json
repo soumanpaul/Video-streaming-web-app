@@ -2,9 +2,16 @@
   "name": "mern-social",
   "version": "0.0.0",
   "private": true,
+    "engines": {
+    "node": "10.15.3",
+    "npm": "6.13.0"
+  },
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "server": "nodemon ./bin/www",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "@babel/cli": "^7.7.7",
@@ -14,6 +21,7 @@
     "@material-ui/core": "^4.8.2",
     "@material-ui/icons": "^4.5.1",
     "compression": "^1.7.4",
+    "concurrently": "^5.0.2",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~4.1.1",

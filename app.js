@@ -26,12 +26,13 @@ const authRouter = require("./routes/auth.routes");
 const mediaRouter = require("./routes/media.routes");
 
 //
-const mongoUrl = "mongodb://localhost:27017/mern-stream";
+const mongoUrl = "mongodb+srv://Sam1729Paul:Sam1729Paul@cluster0-s44lo.mongodb.net/mern-stream?retryWrites=true&w=majority";
+
 mongoose.connect(
   mongoUrl,
   { useUnifiedTopology: true, useNewUrlParser: true },
   () => {
-    console.log("connected...");
+    console.log(" Mongodb cluster connected...");
   }
 );
 
