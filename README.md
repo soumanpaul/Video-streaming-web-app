@@ -1,3 +1,6 @@
+# MERN-streaming
+media streaming application, is the next pick. Inspired by features from Netflix and YouTube, this application will implement content uploading and viewing capabilities with a media content upload feature for content providers, and real-time content streaming for viewers
+
 ## Feature breakdown
 Sign up: Users can register by creating a new account using an email
 address
