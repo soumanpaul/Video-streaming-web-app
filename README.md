@@ -86,13 +86,8 @@ implementation.
 
 Live project
 
-Client React web App version [here](http://foodzone2020client.herokuapp.com/)
+Client React web App version [here](https://musics24.herokuapp.com//)
 
-
-Mobile App repo [here](https://github.com/soumanpaul/ZoodZone-Mobile-App)
-Android APK Download  Available [here]()
-
-Backend repo [here](https://github.com/soumanpaul/Fooz-Zone-REST-API)
 REST API Documentatioin [here](http://foodzone2020.herokuapp.com/)
 
 Extensive Postman version of API documentation with examples [here](https://documenter.getpostman.com/view/5731747/SWLe6nhT?version=latest)
