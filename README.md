@@ -2,14 +2,14 @@
 media streaming application, is the next pick. Inspired by features from Netflix and YouTube, this application will implement content uploading and viewing capabilities with a media content upload feature for content providers, and real-time content streaming for viewers
 
 ## Feature breakdown
-Sign up: Users can register by creating a new account using an email
-address
-User list: Any visitor can see the list of all registered users
-Authentication: Registered users can sign in and sign out
-Protected user profile: Only registered users can view individual user
-details after signing in
-Authorized user edit and delete: Only a registered and authenticated user
-can edit or remove their own user account details
+
+* Sign up
+* User list
+* Authentication
+* Protected user profile
+* details after signing in
+* Authorized user edit and delete
+* can edit or remove their own user account details
 
 ## User model
 The user model will define user details to be stored in the MongoDB database,
@@ -66,3 +66,33 @@ implementation.
 
 ```
 
+
+
+
+## Technologies
+
+* Reactjs
+* Nodejs
+* Expressjs
+* Mongodb
+* Mongoose
+* Redux
+* Styled components
+
+
+
+
+## Demo
+
+Live project
+
+Client React web App version [here](http://foodzone2020client.herokuapp.com/)
+
+
+Mobile App repo [here](https://github.com/soumanpaul/ZoodZone-Mobile-App)
+Android APK Download  Available [here]()
+
+Backend repo [here](https://github.com/soumanpaul/Fooz-Zone-REST-API)
+REST API Documentatioin [here](http://foodzone2020.herokuapp.com/)
+
+Extensive Postman version of API documentation with examples [here](https://documenter.getpostman.com/view/5731747/SWLe6nhT?version=latest)
