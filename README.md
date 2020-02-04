@@ -33,7 +33,7 @@ REST API Documentatioin [here](http://foodzone2020.herokuapp.com/)
 Extensive Postman version of API documentation with examples [here](https://documenter.getpostman.com/view/5731747/SWLe6nhT?version=latest)
 
 
-![](/public/images/output.gif)
+![](/public/images/media.png)
 
 ---
 
